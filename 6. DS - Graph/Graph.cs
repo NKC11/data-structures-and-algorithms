@@ -6,6 +6,7 @@ class Graph
 {
     private Dictionary<int, List<int>> adjacentList;
     private int numberOfNodes;
+    private bool tempVar;
 
     public Graph()
     {
